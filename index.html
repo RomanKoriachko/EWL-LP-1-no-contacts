@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="images/favicon.svg">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lexend:wght@600&family=Poppins&family=Roboto+Slab:wght@700&family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+        <title>EWL- AQ Wiring</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-wrapper">
+                    <!-- <img
+                        class="header-logo"
+                        src="images/header-logo.png"
+                        alt="logo"
+                    /> -->
+                    <div class="header-menu row">
+                        <div class="menu-about-btn" id="about-btn">Про нас</div>
+                        <div class="menu-conditions-btn" id="conditions-btn">
+                            Зарплата
+                        </div>
+                        <div class="menu-reviews-btn" id="reviews-btn">
+                            Відгуки
+                        </div>
+                        <div class="menu-vacancies-btn" id="vacancies-btn">
+                            Обов'язки
+                        </div>
+                        <div class="menu-contacts-btn" id="contacts-btn">
+                            Контакти
+                        </div>
+                    </div>
+                    <div class="burger-menu-btn"></div>
+                    <div class="burger-menu">
+                        <div class="row burger-menu-row">
+                            <!-- <img
+                                class="burger-menu-logo"
+                                src="images/header-logo.png"
+                                alt=""
+                            /> -->
+                            <div class="burger-menu-close-btn"></div>
+                        </div>
+                        <div
+                            class="menu-about-btn burger-menu-item"
+                            id="about-btn"
+                        >
+                            Про нас
+                        </div>
+                        <div
+                            class="menu-conditions-btn burger-menu-item"
+                            id="conditions-btn"
+                        >
+                            Зарплата
+                        </div>
+                        <div
+                            class="menu-reviews-btn burger-menu-item"
+                            id="reviews-btn"
+                        >
+                            Відгуки
+                        </div>
+                        <div
+                        class="menu-vacancies-btn burger-menu-item"
+                        id="vacancies-btn"
+                    >
+                    Обов'язки
+                    </div>
+                        <div
+                            class="menu-contacts-btn burger-menu-item"
+                            id="contacts-btn"
+                        >
+                            Контакти
+                        </div>
+                        <div class="burger-menu-footer">
+                            <!-- <div class="burger-menu-number-wrapper row">
+                                <div class="burger-menu-telegram-img"></div>
+                                <div class="burger-menu-number">
+                                    +380673731512
+                                </div>
+                            </div> -->
+                            <p class="burger-menu-copyright">
+                                © 2023 EWL. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="introduce-section">
+                <video
+                    class="introduce-section-video"
+                    preload="auto"
+                    poster="images/introduce-video-preview.png"
+                    autoplay
+                    muted
+                    loop
+                >
+                <source src="video/introduce-video.mp4" type="video/mp4"></source>
+            </video>
+                <div class="introduce-section-wrapper">
+                    <div class="container introduce-section-text-wrapper">
+                        <div class="introduce-section-text">
+                            <p class="introduce-section-title">
+                                Приєднуйтесь до нашої команди!
+                            </p>
+                            <p class="introduce-section-subtitle">
+                                <span>AQ Wiring</span> - сучасне підприємство,
+                                що має заводи в декількох країнах світу.
+                                Запрошуємо вас долучитися до команди AQ в Литві,
+                                м. Паневежис.
+                            </p>
+                            <button class="introduce-section-btn">
+                                Приєднатися зараз
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-section">
+                <div class="about-section-bg">
+                    <div
+                        class="container"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="2000"
+                        data-aos-once="true"
+                    >
+                        <p class="about-section-title">Чому працюють з нами?</p>
+                        <ul class="about-section-list">
+                            <li class="about-section-list-item">
+                                Литва -
+                                <span>одна з найкомфортніших країн</span> для
+                                роботи: відсутній мовний бар’єр, висока зп при
+                                доволі низьких витратах
+                            </li>
+                            <li class="about-section-list-item">
+                                <span>Легка, чиста робота</span> на
+                                високотехнологічному заводі
+                            </li>
+                            <li class="about-section-list-item">
+                                Можливість обирати графік: працювати по 8 годин
+                                і мати зп близько <span>750 євро</span> чистими
+                                на старт, чи брати додаткові години і заробляти
+                                до <span>1200 євро</span> чистими!
+                            </li>
+                            <li class="about-section-list-item">
+                                <span>Надається житло</span> високої якості в
+                                одному з найбільших міст Литви з розвинутою
+                                інфраструктурою
+                            </li>
+                        </ul>
+                        <div class="about-img">
+                            <div class="about-img-content">
+                                <p class="about-img-subtitle">
+                                    Переваги співпраці з нами
+                                </p>
+                                <p class="about-img-title">
+                                    Будьте впевнені <br />
+                                    це - робота мрії!
+                                </p>
+                                <div class="about-img-row">
+                                    <div class="row about-img-row-item">
+                                        <div
+                                            class="about-img-row-item-check"
+                                        ></div>
+                                        <p>
+                                            Ми надаємо трансфер з України до
+                                            Литви
+                                        </p>
+                                    </div>
+                                    <div class="row about-img-row-item">
+                                        <div
+                                            class="about-img-row-item-check"
+                                        ></div>
+                                        <p>Офіційне оформлення на роботу</p>
+                                    </div>
+                                    <div class="row about-img-row-item">
+                                        <div
+                                            class="about-img-row-item-check"
+                                        ></div>
+                                        <p>Жодних додаткових документів</p>
+                                    </div>
+                                    <div class="row about-img-row-item">
+                                        <div
+                                            class="about-img-row-item-check"
+                                        ></div>
+                                        <p>Наше кураторство</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="main-btn about-btn">
+                            Зв'язатися з нами
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="conditions-section">
+                <div class="conditions-section-bg">
+                    <div class="container">
+                        <p class="conditions-title">Умови пропозиції</p>
+                        <div
+                            class="row conditions-row-item conditions-row-item-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                            data-aos-duration="2000"
+                            data-aos-once="true"
+                        >
+                            <div
+                                class="conditions-row-item-img conditions-img-1"
+                            >
+                                <img src="images/conditions-img-1.png" alt="" />
+                            </div>
+                            <div class="conditions-row-item-text">
+                                <p class="conditions-text-title">
+                                    Заробітня плата
+                                </p>
+                                <p class="conditions-text-subtitle-1">
+                                    750 євро
+                                </p>
+                                <p class="conditions-text-subtitle-2">
+                                    нетто на місяць при стандартному 8-годинному
+                                    робочому графіку 5 днів на тиждень.
+                                </p>
+                                <ul class="conditions-text-list">
+                                    <li>
+                                        Є можливість брати додаткові години та
+                                        отримувати премії. За рахунок цього
+                                        середня заробітна плата складає <span>1000
+                                        - 1200 євро</span> нетто на місяць.
+                                    </li>
+                                    <li>
+                                        Після подачі на захист (це робиться
+                                        одразу після приїзду) видаються картки
+                                        від держави на купівлю їжі по 20 євро на
+                                        тиждень, 80 євро на місяць
+                                    </li>
+                                    <li>
+                                        Видається одноразово допомога від
+                                        держави 300 євро (виплачується протягом
+                                        місяця).
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="row conditions-row-item conditions-row-item-2"
+                            data-aos="fade-right"
+                            data-aos-delay="100"
+                            data-aos-duration="2000"
+                            data-aos-once="true"
+                        >
+                            <div class="conditions-row-item-text">
+                                <p class="conditions-text-title">
+                                    Графік роботи
+                                </p>
+                                <div
+                                    class="conditions-text-subtitle-1-wrapper row"
+                                >
+                                    <p class="conditions-text-subtitle-1">
+                                        8 годин
+                                    </p>
+                                    <p class="conditions-text-subtitle-2">
+                                        з понеділка по п'ятницю.
+                                    </p>
+                                </div>
+                                <ul class="conditions-text-list">
+                                    <li>
+                                        Робота по 8 годин, з понеділка по
+                                        п'ятницю, залежно від процесів, графік
+                                        може бути в різних варіаціях: тиждень
+                                        робота в ранкову зміну (з 6 або 7
+                                        ранку), тиждень в денну зміну, тиждень в
+                                        нічну зміну.
+                                    </li>
+                                    <li>
+                                        Може бути так само робота тільки в
+                                        ранкові та денні зміни, але потрібно
+                                        бути готовим до того, що нічні теж
+                                        можуть бути.
+                                    </li>
+                                    <li>
+                                        За потребою або після процесу навчання
+                                        можлива робота по 12 годин у графіку: 2
+                                        дні роботи з 7 ранку до 7 вечора, 2 дні
+                                        з 7 вечора до 7 ранку, 4 дні вихідних.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="conditions-row-item-img conditions-img-2"
+                            >
+                                <img src="images/conditions-img-2.png" alt="" />
+                            </div>
+                        </div>
+                        <button class="main-btn conditions-btn">
+                            Зв'язатися з нами
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="housing-section">
+                <div class="housing-bg">
+                    <div class="container">
+                        <p class="housing-title">Проживання</p>
+                        <p class="housing-subtitle">Ми надаємо вам житло</p>
+                        <ul class="housing-list">
+                            <li>
+                                Перший місяць проживання коштує 30 євро (ці
+                                кошти знімають із зарплати,
+                                <span>наперед нічого платити не треба</span>), з
+                                другого місяця житло
+                                <span>надається безкоштовно.</span>
+                            </li>
+                            <li>
+                                Відстань від житла до роботи –
+                                <span>всього 3 км</span>, 2 зупинки громадського
+                                транспорту.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slider housing-slider">
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-1.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-2.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-3.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-4.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-5.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-6.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-7.jpg" alt="" />
+                    </div>
+                    <div class="housing-slider-item">
+                        <img src="images/housing-img-8.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="slider housing-mobile-slider">
+                        <div class="housing-mobile-slider-item">
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-1.jpg" alt="" />
+                            </div>
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="housing-mobile-slider-item">
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-3.jpg" alt="" />
+                            </div>
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-4.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="housing-mobile-slider-item">
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-5.jpg" alt="" />
+                            </div>
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-6.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="housing-mobile-slider-item">
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-7.jpg" alt="" />
+                            </div>
+                            <div class="housing-mobile-slider-item-img">
+                                <img src="images/housing-img-8.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="review-section">
+                <div
+                    class="container"
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="2000"
+                    data-aos-once="true"
+                >
+                    <div class="row review-section-row">
+                        <div class="review-text">
+                            <p class="review-title">Відгуки про нас</p>
+                            <p class="review-subtitle">
+                                Надаємо реальні відгуки наших співробітників
+                            </p>
+                        </div>
+                        <div class="row review-wrapper">
+                            <div
+                                class="review-wrapper-item review-wrapper-item-1"
+                            >
+                                <p class="review-wrapper-text">
+                                    А на фабриці так само дуже чуйні люди,
+                                    завжди допоможуть, підкажуть. Загалом умови
+                                    хороші
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Наталія</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="review-wrapper-item review-wrapper-item-2"
+                            >
+                                <p class="review-wrapper-text">
+                                    Дуже хороші умови як на роботі, так і житла,
+                                    вчасно видається зарплата, дружній колектив.
+                                    Також, за будь-яких обставин, завжди
+                                    допомагають координатори. Робота є завжди,
+                                    всьому навчать.
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Світлана</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="slider review-slider">
+                            <div
+                                class="review-slider-item review-slider-item-1"
+                            >
+                                <p class="review-slider-text">
+                                    А на фабриці так само дуже чуйні люди,
+                                    завжди допоможуть, підкажуть. Загалом умови
+                                    хороші
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Наталія</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="review-slider-item review-slider-item-2"
+                            >
+                                <p class="review-slider-text">
+                                    Дуже хороші умови як на роботі, так і житла,
+                                    вчасно видається зарплата, дружній колектив.
+                                    Також, за будь-яких обставин, завжди
+                                    допомагають координатори. Робота є завжди,
+                                    всьому навчать.
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Світлана</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="review-slider-item review-slider-item-3"
+                            >
+                                <p class="review-slider-text">
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Unde cupiditate eaque
+                                    dicta a rem numquam labore sequi deserunt
+                                    totam, culpa iste laudantium facere
+                                    provident, molestias corrupti aliquid natus
+                                    reprehenderit sunt.
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Ірина</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="review-slider-item review-slider-item-4"
+                            >
+                                <p class="review-slider-text">
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Unde cupiditate eaque
+                                    dicta a rem numquam labore sequi deserunt
+                                    totam, culpa iste laudantium facere
+                                    provident, molestias corrupti aliquid natus
+                                    reprehenderit sunt.
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Ірина</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="review-slider-item review-slider-item-5"
+                            >
+                                <p class="review-slider-text">
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Unde cupiditate eaque
+                                    dicta a rem numquam labore sequi deserunt
+                                    totam, culpa iste laudantium facere
+                                    provident, molestias corrupti aliquid natus
+                                    reprehenderit sunt.
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Ірина</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="review-slider-item review-slider-item-6"
+                            >
+                                <p class="review-slider-text">
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Unde cupiditate eaque
+                                    dicta a rem numquam labore sequi deserunt
+                                    totam, culpa iste laudantium facere
+                                    provident, molestias corrupti aliquid natus
+                                    reprehenderit sunt.
+                                </p>
+                                <div class="row user-data-wrapper">
+                                    <div class="user-img"></div>
+                                    <div class="user-data">
+                                        <p class="user-name">Ірина</p>
+                                        <p class="user-position">
+                                            Співробітник
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider review-mobile-slider">
+                            <div class="review-mobile-slider-item">
+                                <div
+                                    class="review-slider-item review-slider-item-1"
+                                >
+                                    <p class="review-slider-text">
+                                        А на фабриці так само дуже чуйні люди,
+                                        завжди допоможуть, підкажуть. Загалом
+                                        умови хороші
+                                    </p>
+                                    <div class="row user-data-wrapper">
+                                        <div class="user-img"></div>
+                                        <div class="user-data">
+                                            <p class="user-name">Наталія</p>
+                                            <p class="user-position">
+                                                Співробітник
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="review-slider-item review-slider-item-2"
+                                >
+                                    <p class="review-slider-text">
+                                        Дуже хороші умови як на роботі, так і
+                                        житла, вчасно видається зарплата,
+                                        дружній колектив. Також, за будь-яких
+                                        обставин, завжди допомагають
+                                        координатори. Робота є завжди, всьому
+                                        навчать.
+                                    </p>
+                                    <div class="row user-data-wrapper">
+                                        <div class="user-img"></div>
+                                        <div class="user-data">
+                                            <p class="user-name">Світлана</p>
+                                            <p class="user-position">
+                                                Співробітник
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-mobile-slider-item">
+                                <div
+                                    class="review-slider-item review-slider-item-3"
+                                >
+                                    <p class="review-slider-text">
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Unde cupiditate eaque
+                                        dicta a rem numquam labore sequi
+                                        deserunt totam, culpa iste laudantium
+                                        facere provident, molestias corrupti
+                                        aliquid natus reprehenderit sunt.
+                                    </p>
+                                    <div class="row user-data-wrapper">
+                                        <div class="user-img"></div>
+                                        <div class="user-data">
+                                            <p class="user-name">Ірина</p>
+                                            <p class="user-position">
+                                                Співробітник
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="review-slider-item review-slider-item-4"
+                                >
+                                    <p class="review-slider-text">
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Unde cupiditate eaque
+                                        dicta a rem numquam labore sequi
+                                        deserunt totam, culpa iste laudantium
+                                        facere provident, molestias corrupti
+                                        aliquid natus reprehenderit sunt.
+                                    </p>
+                                    <div class="row user-data-wrapper">
+                                        <div class="user-img"></div>
+                                        <div class="user-data">
+                                            <p class="user-name">Ірина</p>
+                                            <p class="user-position">
+                                                Співробітник
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-mobile-slider-item">
+                                <div
+                                    class="review-slider-item review-slider-item-5"
+                                >
+                                    <p class="review-slider-text">
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Unde cupiditate eaque
+                                        dicta a rem numquam labore sequi
+                                        deserunt totam, culpa iste laudantium
+                                        facere provident, molestias corrupti
+                                        aliquid natus reprehenderit sunt.
+                                    </p>
+                                    <div class="row user-data-wrapper">
+                                        <div class="user-img"></div>
+                                        <div class="user-data">
+                                            <p class="user-name">Ірина</p>
+                                            <p class="user-position">
+                                                Співробітник
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="review-slider-item review-slider-item-6"
+                                >
+                                    <p class="review-slider-text">
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Unde cupiditate eaque
+                                        dicta a rem numquam labore sequi
+                                        deserunt totam, culpa iste laudantium
+                                        facere provident, molestias corrupti
+                                        aliquid natus reprehenderit sunt.
+                                    </p>
+                                    <div class="row user-data-wrapper">
+                                        <div class="user-img"></div>
+                                        <div class="user-data">
+                                            <p class="user-name">Ірина</p>
+                                            <p class="user-position">
+                                                Співробітник
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+            <section
+                class="requirements-section"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="2000"
+                data-aos-once="true"
+            >
+                <div class="container">
+                    <div class="row requirements-wrapper">
+                        <div class="requirements-text">
+                            <p class="requirements-subtitle">
+                                Вимоги до співробітника
+                            </p>
+                            <p class="requirements-title">Обов'язки</p>
+                            <ul class="requirements-list">
+                                <li>
+                                    Приготування проводів та систем проводів
+                                    відповідно до інструкцій та схем, перевірка
+                                    якості. Збір різних видів кабелів.
+                                </li>
+                                <li>
+                                    Робота стояча, рідше трапляються сидячі
+                                    процеси.
+                                </li>
+                                <li>
+                                    Дуже важливим є гарний зір, оскільки люди
+                                    працюватимуть з дрібними проводами, на яких
+                                    потрібно читати написи.
+                                </li>
+                            </ul>
+                            <button class="main-btn requirements-btn">
+                                Зв'язатися з нами
+                            </button>
+                        </div>
+                        <div class="requirements-img">
+                            <img src="images/requirements-img.png" alt="" />
+                        </div>
+                    </div>
+                    <button class="main-btn requirements-btn-mobile">
+                        Зв'язатися з нами
+                    </button>
+                </div>
+            </section>
+            <section class="video-section">
+                <div class="video-bg">
+                    <div class="container">
+                        <p class="video-title">Місто, в якому ви будете жити</p>
+                        <p class="video-text">
+                            Паневежис - п’яте по величині місто Литви,
+                            розвинене, індустріальне, але при цьому дуже
+                            живописне. Тут є вся необхідна для комфорту життя
+                            інфраструктура. Чисте, гарне й розвинене - про що ще
+                            мріяти?
+                        </p>
+                        <iframe
+                            class="video-content"
+                            width="80%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/t4jkV-dBVtw"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="container">
+                    <!-- <div class="row footer-contacts-wrapper">
+                        <p class="footer-contacts-title">
+                            Зв'яжіться з нами, якщо виникли питання
+                        </p>
+                        <div class="footer-contacts-number">
+                            <div class="row footer-contacts-item telegram-item">
+                                <div class="contact-img telegram-img"></div>
+                                <p class="contact-number telegram-number">
+                                    +380501540249
+                                </p>
+                            </div>
+                            <div class="row footer-contacts-item viber-item">
+                                <div class="contact-img viber-img"></div>
+                                <p class="contact-number viber-number">
+                                    +380501540249
+                                </p>
+                            </div>
+                            <div class="row footer-contacts-item watsup-item">
+                                <div class="contact-img watsup-img"></div>
+                                <p class="contact-number watsup-number">
+                                    +380501540249
+                                </p>
+                            </div>
+                            <div class="row footer-contacts-item mail-item">
+                                <div class="contact-img mail-img"></div>
+                                <p class="contact-number mail-number">
+                                    tatyana.velikaya@ewlpartners.com      
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-links">
+                <!-- <div class="row social-media-wrapper">
+                    <p class="social-media-text">Ти можеш нас знайти</p>
+                    <div class="row social-media-links-wrapper">
+                        <a href="https://www.facebook.com/profile.php?id=100095120024924" target="_blank"
+                            ><div class="social-media-link facebook-link"></div
+                        ></a>
+                        <a href="https://invite.viber.com/?g2=AQB%2BZyvM2QbXLk%2FsUSPEZRRC8dRiLJVvyYgrema5eozwXwBczlLQYndoaTyW%2FhXW" target="_blank"
+                            ><div class="social-media-link viber-link"></div
+                        ></a>
+                        <a href="https://www.instagram.com/ewl_projects/" target="_blank"
+                            ><div class="social-media-link instagram-link"></div
+                        ></a>
+                        <a href="https://www.youtube.com/channel/UCuRSVn341MBdI8ZeUS4RRtw" target="_blank"
+                            ><div class="social-media-link youtube-link"></div
+                        ></a>
+                    </div>
+                </div> -->
+                <p class="copyright">© 2023 EWL Partners. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
